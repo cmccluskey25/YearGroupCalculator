@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/relativeLayout1">
+    <TextView
+        android:text="Text"
+        android:layout_width="130.5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ResultsItemRowType" />
+    <TextView
+        android:text="Text"
+        android:layout_width="107.5dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ResultsItemRowType"
+        android:id="@+id/ResultsItemRowYearGroup" />
+    <TextView
+        android:text="Text"
+        android:layout_width="113.5dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/ResultsItemRowYearGroup"
+        android:id="@+id/ResultsItemRowLikelihood" />
+</RelativeLayout>
